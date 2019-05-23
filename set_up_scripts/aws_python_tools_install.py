@@ -101,7 +101,7 @@ def main():
 	subprocess.call("sudo echo '# Set working directory' | sudo tee --append /home/jupyterlab/.jupyter/jupyter_notebook_config.py.new > /dev/null",shell="True")
 	subprocess.call("sudo echo 'c.NotebookApp.notebook_dir = '\\''/home/jupyterlab/notebooks'\\'' # working folder' | sudo tee --append /home/jupyterlab/.jupyter/jupyter_notebook_config.py.new > /dev/null",shell="True")
 	
-	#Uncoment to set up with pre-configured token
+	#Un-comment to set up with pre-configured token
 	#subprocess.call("sudo echo '# Set Authentication token' | sudo tee --append /home/jupyterlab/.jupyter/jupyter_notebook_config.py.new > /dev/null",shell="True")
 	#subprocess.call("sudo echo 'c.NotebookApp.token = '\\''6e1b6dc99965d0b2db443c55752fe7ce5d9079470284c960'\\'' # working folder' | sudo tee --append /home/jupyterlab/.jupyter/jupyter_notebook_config.py.new > /dev/null",shell="True")
 	

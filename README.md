@@ -62,7 +62,7 @@ All steps listed below are fully automated, and are part of the [aws_python_tool
 
 ### Step 1 - Install Python Anaconda Distribution
 
-In this step we download and install Python Anaconda distribution. The distribution provides handy set of majority of the Python libraries. Many of the big organization certify Anaconda distribution for use on its company servers. 
+In this step we download and install Python Anaconda distribution. The distribution provides handy set of majority of the Python libraries. Many of the big organizations certify Anaconda distribution for use on its company servers. 
 
 ### Step 2 - Install and configure Jupyter notebook/lab environment 
 
@@ -101,7 +101,7 @@ sudo su - jupyterlab -c 'nohup jupyter notebook --no-browser --port 28888 >> /ho
 
 ### Step 3 - Download and install H2O Sparkling Water
 
-Following steps are automated and part of the script.
+Following steps are automated and are part of the script.
 
 ```
 mkdir /mnt/opt
